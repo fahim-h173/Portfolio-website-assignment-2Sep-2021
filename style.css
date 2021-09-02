@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'raleway';
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.logo span {
+    font-size: 30px;
+}
+
+.mainMenue ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainMenue ul li {
+    float: left;
+}
+
+.mainMenue ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+}
+
+.mainMenue ul {
+    background-color: #f1f1f1;
+}
+
+.mainMenue {
+    margin:auto;
+}
+header#menue {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.mainMenue {
+    margin:auto;
+    overflow: hidden;
+    width: 268px;
+}
+#fixedbg{
+    width: 100%;
+    height: 420px;
+    background-image: url('images/coding.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#intro{
+    text-align: center;
+    width: 100%;
+    height: 350px;
+}
+.int span:first-child{
+    font-size: 70px;
+    display: block;
+    padding: 30px;
+    font-weight: 500;
+}
+section#intro {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.mainProject {
+    width: 100%;
+    height: 350px;
+    background: url('images/cta.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.singleProject{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+    
+}
+.projectWrapper {
+    width: 750px;
+    margin: auto;
+    overflow: hidden;
+}
+.mainProject p {
+    width: 91%;
+    line-height: 1.5;
+    color: #e4ebec;
+    margin: auto;
+    padding: 48px;
+    opacity: 0;
+}
+
+.mainProject:hover p{
+    opacity: 1;
+}
+
+.mainProject:hover{
+    background:linear-gradient(#00000059,#00000059 ),url(images/cta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+section#inTuch {width: 100%;height: 250px;padding: 86px 0px;}
+
+.getIn span {
+    display: block;
+    text-align: center;
+}
+
+.getIn span:first-child {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.getIn span:nth-child(2) {
+    margin-bottom: 30px;
+    font-family: system-ui;
+}
+
+.getIn span:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.getIn span:last-child {
+    margin-bottom: 30px;
+    font-family: system-ui;
+}
+.social {
+    text-align: center;
+    padding: 34px;
+}
+
+.social a {
+    text-decoration: none;
+    border-right: 1px solid #333;
+    padding-right: 10px;
+    color: #333;
+    margin-right: 5px;
+}
+
+.social a:hover {
+    color: #0000ff;
+}
+
+.copy {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+section#descrp {
+    overflow: hidden;
+    
+}
+
+.aboutMe {
+    width: 20%;
+    float: left;
+    margin: 80px;
+}
+
+.aboutImg {
+    width: 50%;
+    float: left;
+    margin-left: 220px;
+    margin-top: 113px;
+}
+
+.aboutImg img {
+    width: 100%;
+}
+
+.aboutMe h3 {
+    font-size: 50px;
+}
+
+.aboutMe p {
+    line-height: 2;
+    font-size: 20px;
+}
+.chatBTN{
+    border: none;
+    padding: 15px 45px;
+    color: rgb(221, 208, 208);
+    background: #aabcbf;
+    border-radius: 5px;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    font-size: 18px;
+}
+.chatBTN:hover{
+    cursor: pointer;
+    background: #bee6ec ;
+    color:rgb(236, 223, 223);
+}
